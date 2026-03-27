@@ -14,7 +14,7 @@
     <x-navbar />
 
     <!-- Main Content -->
-    <main class="flex-grow container mx-auto px-4 py-8 max-w-5xl">
+    <main class="flex-grow pt-24 container mx-auto px-4 py-8 max-w-5xl">
         @yield('content')
     </main>
 

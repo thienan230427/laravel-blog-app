@@ -1,4 +1,4 @@
-﻿<nav class="sticky top-0 z-50 w-full bg-brand-light/90 backdrop-blur-md border-b border-gray-200 dark:bg-gray-900/90 dark:border-gray-800 transition-colors">
+﻿<nav class="fixed top-0 left-0 w-full z-50 w-full bg-brand-light/90 backdrop-blur-md border-b border-gray-200 dark:bg-gray-900/90 dark:border-gray-800 transition-colors">
     <div class="container mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
         
         <!-- Logo -->
