@@ -3,7 +3,7 @@
         
         <!-- Logo -->
         <a href="/" class="text-2xl font-serif font-bold tracking-tight text-brand-dark dark:text-gray-100 flex items-center gap-2 group">
-            <span class="text-brand-brown group-hover:rotate-12 transition-transform">🐻</span> 
+            <img src="https://cdn-icons-png.flaticon.com/512/3662/3662817.png" alt="Bear Reading" class="w-8 h-8 group-hover:rotate-12 transition-transform drop-shadow-sm"> 
             Tiệm Sách Nhà Gấu
         </a>
 
