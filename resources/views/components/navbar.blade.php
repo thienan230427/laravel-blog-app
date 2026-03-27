@@ -1,9 +1,9 @@
-﻿<nav class="sticky top-0 z-50 bg-brand-light/90 backdrop-blur-md border-b border-gray-200 dark:bg-gray-900/90 dark:border-gray-800 transition-colors">
+﻿<nav class="sticky top-0 z-50 w-full bg-brand-light/90 backdrop-blur-md border-b border-gray-200 dark:bg-gray-900/90 dark:border-gray-800 transition-colors">
     <div class="container mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
         
         <!-- Logo -->
         <a href="/" class="text-2xl font-serif font-bold tracking-tight text-brand-dark dark:text-gray-100 flex items-center gap-2 group">
-            <img src="https://cdn-icons-png.flaticon.com/512/3662/3662817.png" alt="Bear Reading" class="w-8 h-8 group-hover:rotate-12 transition-transform drop-shadow-sm"> 
+            <img src="https://cdn-icons-png.flaticon.com/512/3069/3069172.png" alt="Bear Reading" class="group-hover:rotate-12 transition-transform drop-shadow-sm" style="width: 36px; height: 36px; object-fit: contain;"> 
             Tiệm Sách Nhà Gấu
         </a>
 

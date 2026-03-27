@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 @theme {
   --color-brand-light: #FDFBF7; /* Beige very light */
@@ -12,7 +12,7 @@
   --font-sans: "Inter", system-ui, sans-serif;
 }
 
-body {
+body, html { @apply m-0 p-0; } body {
   @apply bg-brand-light text-text-main font-sans antialiased;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 /* Custom Utilities for Focus Mode / Dark Mode */
-.dark body {
+.dark body, html { @apply m-0 p-0; } body {
   @apply bg-gray-900 text-gray-100;
 }
 .dark .article-content {
