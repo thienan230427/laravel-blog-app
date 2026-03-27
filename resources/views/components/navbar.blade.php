@@ -1,10 +1,10 @@
-<nav class="sticky top-0 z-50 bg-brand-light/90 backdrop-blur-md border-b border-gray-200 dark:bg-gray-900/90 dark:border-gray-800 transition-colors">
+﻿<nav class="sticky top-0 z-50 bg-brand-light/90 backdrop-blur-md border-b border-gray-200 dark:bg-gray-900/90 dark:border-gray-800 transition-colors">
     <div class="container mx-auto max-w-5xl px-4 py-4 flex items-center justify-between">
         
         <!-- Logo -->
         <a href="/" class="text-2xl font-serif font-bold tracking-tight text-brand-dark dark:text-gray-100 flex items-center gap-2 group">
-            <span class="text-brand-brown group-hover:rotate-12 transition-transform">📚</span> 
-            Gương Tri Thức
+            <span class="text-brand-brown group-hover:rotate-12 transition-transform">🐻</span> 
+            Tiệm Sách Nhà Gấu
         </a>
 
         <!-- Search Bar (Desktop) -->
