@@ -9,7 +9,10 @@
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-brand-light text-text-main font-sans flex flex-col min-h-screen transition-colors duration-300">
+<body class="bg-brand-light text-text-main font-sans flex flex-col min-h-screen transition-colors duration-300 relative bg-fixed bg-center bg-cover" style="background-image: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1920&q=80');">
+    <!-- Dark/Light Overlay for better text contrast -->
+    <div class="fixed inset-0 bg-black/50 dark:bg-black/70 z-[-1] pointer-events-none"></div>
+    
     <!-- Navbar Component -->
     <x-navbar />
 
