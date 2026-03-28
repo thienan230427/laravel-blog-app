@@ -5,7 +5,7 @@
 @section('bg_image', 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1920&q=80')
 
 @section('content')
-<div class="max-w-4xl mx-auto mt-8 bg-black/40 dark:bg-black/60 backdrop-blur-xl rounded-[2rem] p-8 md:p-12 shadow-[0_8px_40px_rgba(0,0,0,0.3)] border border-white/20">
+<div class="max-w-4xl mx-auto mt-8 bg-black/70 backdrop-blur-2xl rounded-[2rem] p-8 md:p-12 shadow-[0_8px_40px_rgba(0,0,0,0.5)] border border-white/10">
     <div class="mb-10 text-center text-white">
         <h1 class="text-3xl md:text-4xl font-serif font-bold tracking-tight drop-shadow-md">Chỉnh sửa bài viết</h1>
         <p class="text-sm text-white/80 mt-2 drop-shadow-sm">Cập nhật nội dung hoặc thay đổi trạng thái bài viết của bạn.</p>
@@ -17,8 +17,8 @@
 
         <!-- Title -->
         <div class="group relative">
-            <label for="title" class="block text-xs font-semibold text-white/60 uppercase tracking-wider mb-2 transition-colors group-focus-within:text-white/90">Tiêu đề bài viết</label>
-            <input type="text" name="title" id="title" class="w-full bg-white/10 dark:bg-white/5 border border-white/20 rounded-xl focus:ring-2 focus:ring-white/40 focus:border-white/50 px-4 py-4 text-2xl font-serif text-white placeholder-white/40 transition-colors shadow-inner" placeholder="Một tựa đề thật thu hút..." value="{{ old('title', $post->title) }}" required>
+            <label for="title" class="block text-xs font-semibold text-white/70 uppercase tracking-wider mb-2 transition-colors group-focus-within:text-white">Tiêu đề bài viết</label>
+            <input type="text" name="title" id="title" class="w-full bg-black/40 border border-white/20 rounded-xl focus:ring-2 focus:ring-white/50 focus:border-white/70 px-4 py-4 text-2xl font-serif text-white placeholder-white/40 transition-colors shadow-inner" placeholder="Một tựa đề thật thu hút..." value="{{ old('title', $post->title) }}" required>
             @error('title')
                 <p class="text-red-400 text-xs mt-2">{{ $message }}</p>
             @enderror
@@ -26,8 +26,8 @@
 
         <!-- Content -->
         <div class="group relative">
-            <label for="content" class="block text-xs font-semibold text-white/60 uppercase tracking-wider mb-2 transition-colors group-focus-within:text-white/90">Nội dung</label>
-            <textarea name="content" id="content" rows="15" class="w-full bg-white/10 dark:bg-white/5 border border-white/20 rounded-2xl focus:ring-2 focus:ring-white/40 focus:border-white/50 px-6 py-5 text-lg font-serif text-white placeholder-white/40 leading-relaxed transition-colors resize-none shadow-inner" placeholder="Bắt đầu gõ những dòng chữ đầu tiên..." required>{{ old('content', $post->content) }}</textarea>
+            <label for="content" class="block text-xs font-semibold text-white/70 uppercase tracking-wider mb-2 transition-colors group-focus-within:text-white">Nội dung</label>
+            <textarea name="content" id="content" rows="15" class="w-full bg-black/40 border border-white/20 rounded-2xl focus:ring-2 focus:ring-white/50 focus:border-white/70 px-6 py-5 text-lg font-serif text-white placeholder-white/40 leading-relaxed transition-colors resize-none shadow-inner" placeholder="Bắt đầu gõ những dòng chữ đầu tiên..." required>{{ old('content', $post->content) }}</textarea>
             @error('content')
                 <p class="text-red-400 text-xs mt-2">{{ $message }}</p>
             @enderror
@@ -35,8 +35,8 @@
 
         <!-- Status -->
         <div class="group relative">
-            <label for="status" class="block text-xs font-semibold text-white/60 uppercase tracking-wider mb-2 transition-colors group-focus-within:text-white/90">Trạng thái</label>
-            <select name="status" id="status" class="w-full md:w-1/3 bg-white/10 dark:bg-white/5 border border-white/20 rounded-xl focus:ring-2 focus:ring-white/40 focus:border-white/50 px-4 py-3 text-sm text-white transition-colors cursor-pointer appearance-none">
+            <label for="status" class="block text-xs font-semibold text-white/70 uppercase tracking-wider mb-2 transition-colors group-focus-within:text-white">Trạng thái</label>
+            <select name="status" id="status" class="w-full md:w-1/3 bg-black/40 border border-white/20 rounded-xl focus:ring-2 focus:ring-white/50 focus:border-white/70 px-4 py-3 text-sm text-white transition-colors cursor-pointer appearance-none">
                 <option class="text-gray-900" value="draft" {{ old('status', $post->status) == 'draft' ? 'selected' : '' }}>Lưu bản nháp</option>
                 <option class="text-gray-900" value="published" {{ old('status', $post->status) == 'published' ? 'selected' : '' }}>Xuất bản ngay</option>
             </select>
