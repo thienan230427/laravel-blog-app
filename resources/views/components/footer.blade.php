@@ -48,6 +48,5 @@
     
     <div class="text-center mt-8 text-xs text-text-muted/60 flex flex-col items-center justify-center gap-2">
         <p>&copy; {{ date('Y') }} Tiệm Sách Nhà Gấu. Nơi lưu giữ những dòng chữ bình yên.</p>
-        <p>Made with 🐻 by Grace</p>
     </div>
 </footer>
